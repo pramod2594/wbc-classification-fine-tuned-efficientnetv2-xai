@@ -112,7 +112,7 @@ To enhance interpretability and clinical trust, **XAI techniques** were applied:
 ```
 WBC-Classification-Using-EfficientNetV2L/
 │
-├── WBC_Classification.ipynb      # Main notebook
+├── wbc-classification-using-efficientnetv2-l.ipynb      # Main notebook
 ├── README.md                     # Project documentation
 ├── requirements.txt               # Dependencies
 ├── /results/                     # Confusion matrix, ROC, Grad-CAM outputs
@@ -126,12 +126,12 @@ WBC-Classification-Using-EfficientNetV2L/
 
 ```bash
 # Clone the repo
-git clone https://github.com/USERNAME/WBC-Classification-Using-EfficientNetV2L.git
+git clone https://github.com/pramod2594/WBC-Classification-Using-EfficientNetV2L.git
 cd WBC-Classification-Using-EfficientNetV2L
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Open notebook
-jupyter notebook WBC_Classification.ipynb
+jupyter notebook wbc-classification-using-efficientnetv2-l.ipynb
 ```
