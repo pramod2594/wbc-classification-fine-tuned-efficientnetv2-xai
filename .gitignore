@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Model weights / checkpoints
+*.h5
+*.ckpt
+checkpoint/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.env/
+venv/
+env/
+
+# Results and dataset (optional: large files)
+results/
+data/
+
