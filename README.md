@@ -62,7 +62,7 @@ Dense(5, activation='softmax')
 
 ### 🔧 **Phase 2 – Fine-Tuning**
 - Unfreeze last 50 layers of backbone  
-- Retrain with a smaller learning rate (`1e-5`)  
+- Retrain with a smaller learning rate (`lr=1e-5`)  
 - Use learning rate scheduler (`ReduceLROnPlateau`)  
 
 ---
